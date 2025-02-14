@@ -9,9 +9,18 @@ The project runs in a Docker container with Apache and PHP 8.2.
 - Runs in a Docker container with Apache.
 - Secure input handling (`htmlspecialchars`, `trim`, `stripslashes`).
 
-## 🛠 Installation
+## 🛠 How to Run  
 
-### 1️⃣ Clone the repository
-```sh
-git clone https://github.com/YOUR_GITHUB/martinakopyan-php-registration-form-validation.git
-cd martinakopyan-php-registration-form-validation
+1. Ensure that **Docker** and **Docker Compose** are installed.  
+2. Clone the repository:  
+   ```bash
+   git clone https://github.com/YOUR_GITHUB/martinakopyan-php-registration-form-validation.git
+3. Navigate to the project directory
+   ```bash
+   cd martinakopyan-php-registration-form-validation
+4. Build and start the container:
+   ```bash
+   docker-compose up --build -d
+5. Open the app in your browser:  
+   👉 [http://localhost:8000](http://localhost:8000)
+
